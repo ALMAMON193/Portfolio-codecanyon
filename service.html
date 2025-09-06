@@ -72,15 +72,13 @@
                     <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-indigo-600 to-purple-600 group-hover:w-full transition-all duration-300"></span>
                 </a>
             </div>
-
             <!-- Premium Button -->
-            <button class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-sm font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300">
-                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clip-rule="evenodd"></path>
-                </svg>
-                Super Premium
+            <button class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-sm font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300"><svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.94 6.34A2 2 0 014.5 5h11a2 2 0 011.56.75l-7.06 4.71a1 1 0 01-1.0 0L2.94 6.34z" />
+                <path d="M18 8.12l-6.82 4.55a3 3 0 01-3.36 0L2 8.12V14a2 2 0 002 2h12a2 2 0 002-2V8.12z" />
+            </svg>
+                Contact me
             </button>
-
             <!-- Mobile menu button -->
             <button class="md:hidden p-2 rounded-md text-gray-700 hover:text-indigo-600">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -91,8 +89,8 @@
     </div>
 </nav>
 <!--Start About Section -->
-<!-- Blog  Section -->
-<section  class="py-24 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 relative overflow-hidden">
+<!-- service  Section -->
+<section class="py-24 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 relative overflow-hidden">
     <!-- Floating Elements -->
     <div class="absolute top-20 left-10 w-20 h-20 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full opacity-20 animate-float"></div>
     <div class="absolute top-40 right-20 w-32 h-32 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full opacity-10 animate-float" style="animation-delay: 2s;"></div>
@@ -109,27 +107,24 @@
                 Offering comprehensive solutions tailored to meet modern business needs with cutting-edge technologies
             </p>
         </div>
-
+        <div class="flex justify-center mb-12">
+            <div class="grid grid-cols-2 gap-4 w-64">
+                <button class="filter-btn px-4 py-3 rounded-xl shadow-md bg-indigo-600 text-white font-semibold hover:shadow-lg transition active" data-target="services">Services</button>
+                <button class="filter-btn px-4 py-3 rounded-xl shadow-md bg-white text-gray-700 font-semibold hover:bg-indigo-50 transition" data-target="pricing">Pricing</button>
+            </div>
+        </div>
         <!-- Services Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
+        <div id="services" class="content-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Service 1: Web Development -->
             <div class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-gray-100 hover:border-indigo-200 relative overflow-hidden">
                 <div class="absolute inset-0 bg-gradient-to-br from-indigo-50 to-purple-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
-                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop&crop=faces"
-                     alt="Web Development"
-                     class="w-full h-48 rounded-xl object-cover mb-6 group-hover:scale-105 transition-transform duration-500">
-
                 <div class="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 relative z-10">
                     <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
                     </svg>
                 </div>
-
                 <h3 class="text-2xl font-bold text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors duration-300 relative z-10">Web Development</h3>
                 <p class="text-gray-600 mb-6 leading-relaxed relative z-10">Custom web applications built with modern frameworks and best practices for optimal performance and user experience.</p>
-
                 <div class="space-y-3 mb-6 relative z-10">
                     <div class="flex items-center text-gray-700">
                         <div class="w-5 h-5 bg-indigo-100 rounded-full flex items-center justify-center mr-3">
@@ -157,24 +152,16 @@
                     </div>
                 </div>
             </div>
-
             <!-- Service 2: Mobile Development -->
             <div class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-gray-100 hover:border-pink-200 relative overflow-hidden">
                 <div class="absolute inset-0 bg-gradient-to-br from-pink-50 to-rose-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
-                <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop&crop=faces"
-                     alt="Mobile Development"
-                     class="w-full h-48 rounded-xl object-cover mb-6 group-hover:scale-105 transition-transform duration-500">
-
                 <div class="w-16 h-16 bg-gradient-to-br from-pink-500 to-rose-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 relative z-10">
                     <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
                     </svg>
                 </div>
-
                 <h3 class="text-2xl font-bold text-gray-900 mb-4 group-hover:text-pink-600 transition-colors duration-300 relative z-10">Mobile Development</h3>
                 <p class="text-gray-600 mb-6 leading-relaxed relative z-10">Cross-platform mobile applications with native performance, intuitive interfaces, and seamless user experiences.</p>
-
                 <div class="space-y-3 mb-6 relative z-10">
                     <div class="flex items-center text-gray-700">
                         <div class="w-5 h-5 bg-pink-100 rounded-full flex items-center justify-center mr-3">
@@ -205,153 +192,13 @@
             <!-- Service 3: UI/UX Design -->
             <div class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-gray-100 hover:border-purple-200 relative overflow-hidden">
                 <div class="absolute inset-0 bg-gradient-to-br from-purple-50 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
-                <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=600&h=400&fit=crop&crop=faces"
-                     alt="UI/UX Design"
-                     class="w-full h-48 rounded-xl object-cover mb-6 group-hover:scale-105 transition-transform duration-500">
-
                 <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 relative z-10">
                     <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4 4 4 0 004-4V5z"></path>
                     </svg>
                 </div>
-
                 <h3 class="text-2xl font-bold text-gray-900 mb-4 group-hover:text-purple-600 transition-colors duration-300 relative z-10">UI/UX Design</h3>
                 <p class="text-gray-600 mb-6 leading-relaxed relative z-10">User-centered design solutions that combine aesthetics with functionality to create exceptional digital experiences.</p>
-
-                <div class="space-y-3 mb-6 relative z-10">
-                    <div class="flex items-center text-gray-700">
-                        <div class="w-5 h-5 bg-purple-100 rounded-full flex items-center justify-center mr-3">
-                            <svg class="w-3 h-3 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                            </svg>
-                        </div>
-                        <span class="font-medium">User Research</span>
-                    </div>
-                    <div class="flex items-center text-gray-700">
-                        <div class="w-5 h-5 bg-purple-100 rounded-full flex items-center justify-center mr-3">
-                            <svg class="w-3 h-3 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                            </svg>
-                        </div>
-                        <span class="font-medium">Wireframing & Prototyping</span>
-                    </div>
-                    <div class="flex items-center text-gray-700">
-                        <div class="w-5 h-5 bg-purple-100 rounded-full flex items-center justify-center mr-3">
-                            <svg class="w-3 h-3 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                            </svg>
-                        </div>
-                        <span class="font-medium">Design Systems</span>
-                    </div>
-                </div>
-            </div>
-            <!-- Service 1: Web Development -->
-            <div class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-gray-100 hover:border-indigo-200 relative overflow-hidden">
-                <div class="absolute inset-0 bg-gradient-to-br from-indigo-50 to-purple-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
-                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop&crop=faces"
-                     alt="Web Development"
-                     class="w-full h-48 rounded-xl object-cover mb-6 group-hover:scale-105 transition-transform duration-500">
-
-                <div class="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 relative z-10">
-                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
-                    </svg>
-                </div>
-
-                <h3 class="text-2xl font-bold text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors duration-300 relative z-10">Web Development</h3>
-                <p class="text-gray-600 mb-6 leading-relaxed relative z-10">Custom web applications built with modern frameworks and best practices for optimal performance and user experience.</p>
-
-                <div class="space-y-3 mb-6 relative z-10">
-                    <div class="flex items-center text-gray-700">
-                        <div class="w-5 h-5 bg-indigo-100 rounded-full flex items-center justify-center mr-3">
-                            <svg class="w-3 h-3 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                            </svg>
-                        </div>
-                        <span class="font-medium">Laravel & Vue.js</span>
-                    </div>
-                    <div class="flex items-center text-gray-700">
-                        <div class="w-5 h-5 bg-indigo-100 rounded-full flex items-center justify-center mr-3">
-                            <svg class="w-3 h-3 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                            </svg>
-                        </div>
-                        <span class="font-medium">Responsive Design</span>
-                    </div>
-                    <div class="flex items-center text-gray-700">
-                        <div class="w-5 h-5 bg-indigo-100 rounded-full flex items-center justify-center mr-3">
-                            <svg class="w-3 h-3 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                            </svg>
-                        </div>
-                        <span class="font-medium">API Integration</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service 2: Mobile Development -->
-            <div class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-gray-100 hover:border-pink-200 relative overflow-hidden">
-                <div class="absolute inset-0 bg-gradient-to-br from-pink-50 to-rose-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
-                <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop&crop=faces"
-                     alt="Mobile Development"
-                     class="w-full h-48 rounded-xl object-cover mb-6 group-hover:scale-105 transition-transform duration-500">
-
-                <div class="w-16 h-16 bg-gradient-to-br from-pink-500 to-rose-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 relative z-10">
-                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-                    </svg>
-                </div>
-
-                <h3 class="text-2xl font-bold text-gray-900 mb-4 group-hover:text-pink-600 transition-colors duration-300 relative z-10">Mobile Development</h3>
-                <p class="text-gray-600 mb-6 leading-relaxed relative z-10">Cross-platform mobile applications with native performance, intuitive interfaces, and seamless user experiences.</p>
-
-                <div class="space-y-3 mb-6 relative z-10">
-                    <div class="flex items-center text-gray-700">
-                        <div class="w-5 h-5 bg-pink-100 rounded-full flex items-center justify-center mr-3">
-                            <svg class="w-3 h-3 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                            </svg>
-                        </div>
-                        <span class="font-medium">Flutter & React Native</span>
-                    </div>
-                    <div class="flex items-center text-gray-700">
-                        <div class="w-5 h-5 bg-pink-100 rounded-full flex items-center justify-center mr-3">
-                            <svg class="w-3 h-3 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                            </svg>
-                        </div>
-                        <span class="font-medium">iOS & Android</span>
-                    </div>
-                    <div class="flex items-center text-gray-700">
-                        <div class="w-5 h-5 bg-pink-100 rounded-full flex items-center justify-center mr-3">
-                            <svg class="w-3 h-3 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                            </svg>
-                        </div>
-                        <span class="font-medium">Cloud Integration</span>
-                    </div>
-                </div>
-            </div>
-            <!-- Service 3: UI/UX Design -->
-            <div class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-gray-100 hover:border-purple-200 relative overflow-hidden">
-                <div class="absolute inset-0 bg-gradient-to-br from-purple-50 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
-                <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=600&h=400&fit=crop&crop=faces"
-                     alt="UI/UX Design"
-                     class="w-full h-48 rounded-xl object-cover mb-6 group-hover:scale-105 transition-transform duration-500">
-
-                <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 relative z-10">
-                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4 4 4 0 004-4V5z"></path>
-                    </svg>
-                </div>
-
-                <h3 class="text-2xl font-bold text-gray-900 mb-4 group-hover:text-purple-600 transition-colors duration-300 relative z-10">UI/UX Design</h3>
-                <p class="text-gray-600 mb-6 leading-relaxed relative z-10">User-centered design solutions that combine aesthetics with functionality to create exceptional digital experiences.</p>
-
                 <div class="space-y-3 mb-6 relative z-10">
                     <div class="flex items-center text-gray-700">
                         <div class="w-5 h-5 bg-purple-100 rounded-full flex items-center justify-center mr-3">
@@ -380,9 +227,115 @@
                 </div>
             </div>
         </div>
+        <!-- Pricing Grid -->
+        <div id="pricing" class="content-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 hidden">
+            <!-- Basic Plan -->
+            <div class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-gray-100 hover:border-indigo-200 relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-indigo-50 to-purple-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors duration-300 relative z-10">Basic Plan</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed relative z-10">Perfect for startups and small businesses looking for essential features.</p>
+                <div class="text-4xl font-bold text-gray-900 mb-6 relative z-10">$99<span class="text-lg font-medium text-gray-600">/mo</span></div>
+                <div class="space-y-3 mb-6 relative z-10">
+                    <div class="flex items-center text-gray-700">
+                        <div class="w-5 h-5 bg-indigo-100 rounded-full flex items-center justify-center mr-3">
+                            <svg class="w-3 h-3 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <span class="font-medium">1 Web Project</span>
+                    </div>
+                    <div class="flex items-center text-gray-700">
+                        <div class="w-5 h-5 bg-indigo-100 rounded-full flex items-center justify-center mr-3">
+                            <svg class="w-3 h-3 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <span class="font-medium">Basic Support</span>
+                    </div>
+                    <div class="flex items-center text-gray-700">
+                        <div class="w-5 h-5 bg-indigo-100 rounded-full flex items-center justify-center mr-3">
+                            <svg class="w-3 h-3 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <span class="font-medium">1 Month Maintenance</span>
+                    </div>
+                </div>
+                <button class="w-full py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 transition relative z-10">Choose Plan</button>
+            </div>
+            <!-- Popular Plan -->
+            <div class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-gray-100 hover:border-pink-200 relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-pink-50 to-rose-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div class="absolute top-0 right-0 bg-pink-600 text-white text-sm font-semibold px-4 py-1 rounded-bl-xl">Popular</div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 group-hover:text-pink-600 transition-colors duration-300 relative z-10">Popular Plan</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed relative z-10">Ideal for growing businesses needing advanced features and support.</p>
+                <div class="text-4xl font-bold text-gray-900 mb-6 relative z-10">$199<span class="text-lg font-medium text-gray-600">/mo</span></div>
+                <div class="space-y-3 mb-6 relative z-10">
+                    <div class="flex items-center text-gray-700">
+                        <div class="w-5 h-5 bg-pink-100 rounded-full flex items-center justify-center mr-3">
+                            <svg class="w-3 h-3 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <span class="font-medium">3 Web/Mobile Projects</span>
+                    </div>
+                    <div class="flex items-center text-gray-700">
+                        <div class="w-5 h-5 bg-pink-100 rounded-full flex items-center justify-center mr-3">
+                            <svg class="w-3 h-3 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <span class="font-medium">Priority Support</span>
+                    </div>
+                    <div class="flex items-center text-gray-700">
+                        <div class="w-5 h-5 bg-pink-100 rounded-full flex items-center justify-center mr-3">
+                            <svg class="w-3 h-3 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <span class="font-medium">3 Months Maintenance</span>
+                    </div>
+                </div>
+                <button class="w-full py-3 bg-pink-600 text-white rounded-xl font-semibold hover:bg-pink-700 transition relative z-10">Choose Plan</button>
+            </div>
+            <!-- Expertise Plan -->
+            <div class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-gray-100 hover:border-purple-200 relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-purple-50 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 group-hover:text-purple-600 transition-colors duration-300 relative z-10">Expertise Plan</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed relative z-10">Comprehensive solutions for enterprises with complex requirements.</p>
+                <div class="text-4xl font-bold text-gray-900 mb-6 relative z-10">$399<span class="text-lg font-medium text-gray-600">/mo</span></div>
+                <div class="space-y-3 mb-6 relative z-10">
+                    <div class="flex items-center text-gray-700">
+                        <div class="w-5 h-5 bg-purple-100 rounded-full flex items-center justify-center mr-3">
+                            <svg class="w-3 h-3 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <span class="font-medium">Unlimited Projects</span>
+                    </div>
+                    <div class="flex items-center text-gray-700">
+                        <div class="w-5 h-5 bg-purple-100 rounded-full flex items-center justify-center mr-3">
+                            <svg class="w-3 h-3 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <span class="font-medium">Dedicated Support</span>
+                    </div>
+                    <div class="flex items-center text-gray-700">
+                        <div class="w-5 h-5 bg-purple-100 rounded-full flex items-center justify-center mr-3">
+                            <svg class="w-3 h-3 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <span class="font-medium">6 Months Maintenance</span>
+                    </div>
+                </div>
+                <button class="w-full py-3 bg-purple-600 text-white rounded-xl font-semibold hover:bg-purple-700 transition relative z-10">Choose Plan</button>
+            </div>
+        </div>
     </div>
 </section>
-<!--Blog End Section-->
+<!--service End Section-->
 <!--  Start Footer -->
 <footer class="bg-gray-900 text-white">
     <div class="max-w-7xl mx-auto px-6 lg:px-8 py-16">
@@ -487,5 +440,34 @@
     </div>
 </footer>
 <!--End Footer Section-->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.filter-btn');
+    const sections = document.querySelectorAll('.content-section');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Button style toggle
+        buttons.forEach(btn => {
+          btn.classList.remove('bg-indigo-600', 'text-white');
+          btn.classList.add('bg-white', 'text-gray-700', 'hover:bg-indigo-50');
+        });
+        button.classList.remove('bg-white', 'text-gray-700', 'hover:bg-indigo-50');
+        button.classList.add('bg-indigo-600', 'text-white');
+
+        // Section toggle (no effect, instant change)
+        const target = button.getAttribute('data-target');
+        sections.forEach(section => {
+          if (section.id === target) {
+            section.classList.remove('hidden');
+          } else {
+            section.classList.add('hidden');
+          }
+        });
+      });
+    });
+  });
+</script>
+
 </body>
 </html>
